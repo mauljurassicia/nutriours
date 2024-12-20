@@ -1,4 +1,4 @@
-import AddRoomDialog from "@/components/add-room-dialog";
+import AddRoomDialog from "@/app/(dashboard)/rooms/_components/add-room-dialog";
 import {
   Card,
   CardContent,
