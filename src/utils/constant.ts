@@ -1,4 +1,4 @@
-import { HomeIcon, UserIcon, ArchiveIcon, CookingPotIcon, FileTextIcon, LibraryBigIcon, SettingsIcon, UtensilsIcon, CalendarIcon } from "lucide-react";
+import { HomeIcon, UserIcon, ArchiveIcon, CookingPotIcon, FileTextIcon, LibraryBigIcon, SettingsIcon, UtensilsIcon, CalendarIcon, BedIcon } from "lucide-react";
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 import { LucideProps } from 'lucide-react'; // Adjust the import based on your actual icon library
 
@@ -24,9 +24,9 @@ export const dashboardRouteLists: Route[] = [
         icon: CalendarIcon,
       },
       {
-        name: "Pasien",
-        href: "/patients",
-        icon: UserIcon,
+        name: "Ruangan",
+        href: "/rooms",
+        icon: BedIcon,
       },
       {
         name: "Dapur",
